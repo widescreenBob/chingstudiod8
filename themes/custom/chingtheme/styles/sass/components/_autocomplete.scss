@@ -1,0 +1,40 @@
+/**
+ * @file
+ * Base styles for autocomplete functionality.
+ *
+ * @see autocomplete.js
+ */
+
+/* Suggestion list */
+#autocomplete {
+  position: absolute;
+  z-index: 100;
+  overflow: hidden;
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    list-style-image: none;
+  }
+
+  li {
+    cursor: default;
+    white-space: pre;
+    zoom: 1; /* IE7 */
+  }
+}
+
+/* Animated throbber */
+html.js {
+
+  .form-autocomplete {
+    background-image: url('#{$asset-path}/images/throbber.gif');
+    background-position: 100% 2px;
+    background-repeat: no-repeat;
+  }
+
+  .throbbing {
+    background-position: 100% -18px;
+  }
+}

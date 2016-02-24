@@ -1,0 +1,132 @@
+//=======================================================
+// Typography
+//=======================================================
+
+p,
+dt,
+dd {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  letter-spacing: 0.01rem;
+}
+
+p {
+  margin: 0 0 10px;
+}
+
+a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+
+  // Improve readability when focused and also mouse hovered in all browsers.
+  &:active,
+  &:hover {
+    text-decoration: underline;
+    outline: 0;
+  }
+}
+
+b,
+strong {
+  //font-weight: $base-font-bold;
+}
+
+blockquote {
+  //margin: $indent-amount;
+}
+
+dfn {
+  font-style: italic;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+// Address inconsistent and variable font size in all browsers.
+small {
+  font-size: 80%;
+}
+
+// Prevent `sub` and `sup` affecting `line-height` in all browsers.
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+// Contain overflow in all browsers.
+pre {
+  margin: 0;
+  overflow: auto;
+}
+
+// Address odd `em`-unit font size rendering in all browsers.
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1rem;
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+// Heading styles
+//
+// Normal heading styles with no classes applied.
+//
+// Markup:
+// <h1>Test heading with no classes applied.</h1>
+// <h2>Test heading with no classes applied.</h2>
+// <h3>Test heading with no classes applied.</h3>
+// <h4>Test heading with no classes applied.</h4>
+// <h5>Test heading with no classes applied.</h5>
+// <h6>Test heading with no classes applied.</h6>
+//
+// Style guide: base.typography
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.15;
+  margin: 0 0 10px;
+  text-rendering: geometricPrecision;
+}
+
+h1 {
+  font-size: 3.2rem;
+}
+
+h2 {
+  font-size: 2.8rem;
+}
+
+h3 {
+  font-size: 2.4rem;
+}
+
+h4 {
+  font-size: 1.8rem;
+}
+
+h5 {
+  font-size: 1.6rem;
+}
+
+h6 {
+  font-size: 1.4rem;
+}

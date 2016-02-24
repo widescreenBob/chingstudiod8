@@ -1,0 +1,32 @@
+/**
+ * @file
+ * Search module theme.
+ * From module/search/search.theme.css
+ */
+
+/**
+ * Search Results
+ */
+.search-result__snippet {
+  padding-left: 1em;
+}
+
+.search-result__info {
+  font-size: 0.85em;
+}
+
+/**
+ * Advanced Search Form
+ */
+.search-advanced {
+
+  .criterion {
+    float: left;
+    margin-right: 2em;
+  }
+
+  .action {
+    float: left;
+    clear: left;
+  }
+}

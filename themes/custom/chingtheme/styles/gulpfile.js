@@ -20,7 +20,7 @@ var pngquant   = require('imagemin-pngquant');
 var q          = require('q');
 var path       = require('path');
 var fs         = require('fs');
-var Grunticon  = require( 'grunticon-lib' );
+//var Grunticon  = require( 'grunticon-lib' );
 
 //=======================================================
 // Functions
@@ -95,7 +95,7 @@ gulp.task('styleguide', function() {
 //=======================================================
 // Grunticon
 //=======================================================
-
+/*
 gulp.task('icons', function () {
   var deferred = q.defer(),
       //path to icon folder
@@ -114,7 +114,7 @@ gulp.task('icons', function () {
 
   return deferred.promise;
 });
-
+*/
 //=======================================================
 // Compress assets (images, pngs, svgs).
 //=======================================================
@@ -138,4 +138,4 @@ gulp.task('compress', function () {
 // Default Task
 //=======================================================
 
-gulp.task('default', ['sass', 'compress', 'icons']);
+gulp.task('default', ['sass', 'compress']);

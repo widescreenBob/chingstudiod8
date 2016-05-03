@@ -1,0 +1,21 @@
+/**
+ * @file
+ * Base styles for the resizable textareas functionality.
+ *
+ * @see textarea.js
+ */
+
+.form-textarea-wrapper textarea {
+  display: block;
+  width: 100%;
+  margin: 0;
+}
+
+.resizable-textarea .grippie {
+  height: 9px;
+  background: #eee url('#{$asset-path}/images/grippie.png') no-repeat center 2px;
+  border: 1px solid #ddd;
+  border-top-width: 0;
+  cursor: s-resize;
+  overflow: hidden;
+}

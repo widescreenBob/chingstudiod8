@@ -1,0 +1,14 @@
+global-styling:
+  version: VERSION
+  css:
+    theme:
+      styles/css/chingtheme.main.css: {}
+
+
+global-scripts:
+  version: VERSION
+  js:
+    js/main.js: {}
+  dependencies:
+    - core/jquery
+

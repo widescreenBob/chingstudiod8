@@ -1,0 +1,19 @@
+/**
+ * @file
+ * Styling for contextual links behaviour and structure.
+ * From module/field/field.theme.scss
+ */
+
+/**
+ * Field display.
+ */
+.field__label {
+  font-weight: bold;
+}
+
+.field--label-inline {
+  .field__label,
+  .field__items {
+    float: left;
+  }
+}

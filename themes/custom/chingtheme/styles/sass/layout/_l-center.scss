@@ -1,0 +1,17 @@
+// Layout Center
+//
+// This class can be used to center any container.
+//
+// Markup:
+// <div class="l-center">
+//   <h3>Centered container with a max-width of 960px.</h3>
+// </div>
+//
+// Style guide: layout.l-center
+
+.l-center,
+%l-center {
+  @include clearfix();
+  margin: 0 auto;
+  max-width: 960px;
+}

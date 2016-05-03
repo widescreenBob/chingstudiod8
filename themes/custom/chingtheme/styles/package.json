@@ -1,0 +1,30 @@
+{
+  "name": "chingtheme",
+  "version": "1.0.0",
+  "scripts": {
+    "postinstall": "find node_modules/ -name '*.info' -type f -delete",
+    "gulp": "gulp",
+    "gulp-watch": "gulp watch",
+    "gulp-compress": "gulp compress"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.7.6",
+    "fs": "0.0.2",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp-clean": "^0.3.1",
+    "gulp-filter": "^2.0.2",
+    "gulp-imagemin": "^2.2.1",
+    "gulp-sass": "^2.0.1",
+    "gulp-shell": "^0.4.1",
+    "gulp-sourcemaps": "^1.5.2",
+    "imagemin-pngquant": "^4.1.0",
+    "kss": "^2.1.0",
+    "path": "^0.11.14",
+    "q": "^1.4.1"
+  },
+  "engines": {
+    "node": ">=0.12.0"
+  }
+}
